@@ -37,6 +37,10 @@ body {
 	line-height: 1;
 }
 
+.about-li {
+	display: inline-block;
+}
+
 ol, ul {
 	list-style: none;
 }
