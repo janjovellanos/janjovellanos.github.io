@@ -1745,6 +1745,22 @@ input, select, textarea {
 		}
 
 /* Icons */
+	.tech-title {
+		font-weight: 400;
+		text-decoration: underline;
+	}
+
+	.tech {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.tech > img {
+		margin: 0.25rem 0.45rem;
+		width: 2.5rem;
+	}
 
 	.icon {
 		text-decoration: none;
