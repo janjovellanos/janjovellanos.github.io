@@ -1808,6 +1808,8 @@ input, select, textarea {
 	}
 
 	.tech-title {
+		display: flex;
+		justify-content: center;
 		font-weight: 400;
 		text-decoration: underline;
 	}
@@ -1821,7 +1823,7 @@ input, select, textarea {
 
 	.tech > img {
 		margin: 0.5rem 0.45rem;
-		width: 1.75rem;
+		width: 2.25rem;
 	}
 
 	.icon {
