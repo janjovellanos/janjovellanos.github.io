@@ -39,6 +39,8 @@ body {
 
 .about-li {
 	display: inline-block;
+	text-align: center;
+	align-items: center;
 }
 
 ol, ul {
@@ -1745,6 +1747,20 @@ input, select, textarea {
 		}
 
 /* Icons */
+	.fa-spotify {
+		font-size: 16pt;
+		color: rgb(0, 0, 0, 0.5);
+		margin: 0 0 0 0.2rem;
+	}
+
+	.fa-spotify:hover {
+		color: rgb(30,215,96);
+	}
+
+	.project-points {
+		font-size: 11pt;
+	}
+
 	.resume-p {
 		color: black;
 		font-size: smaller;
@@ -1780,7 +1796,7 @@ input, select, textarea {
 	}
 
 	.project-titles > a:not(.github-small):hover {
-		font-weight: bold;
+		text-decoration: underline;
 	}
 
 	.github-small {
@@ -1789,7 +1805,6 @@ input, select, textarea {
 
 	.github-small:hover {
 		color: rgb(85,26,139);
-		font-size: larger;
 	}
 
 	.tech-title {
