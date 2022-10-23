@@ -1763,11 +1763,15 @@ input, select, textarea {
 	.fa-spotify {
 		font-size: 16pt;
 		color: rgb(0, 0, 0, 0.5);
-		margin: 0 0 0 0.2rem;
+		margin: 0 0 0 0.05rem;
 	}
 
 	.fa-spotify:hover {
 		color: rgb(30,215,96);
+	}
+
+	#spotify:hover {
+			color: rgb(30,215,96);
 	}
 
 	.project-points {
@@ -1986,6 +1990,23 @@ input, select, textarea {
 
 .about-header > h3 {
 	margin: 0 0.25em 0 0;
+}
+
+.about-header > a {
+	color: rgb(0, 0, 0);
+	font-size: 2.75em;
+}
+
+.about-header > a+a:hover {
+	color: rgb(24,102,194);
+}
+
+.about-header > a:hover {
+	color: rgb(85,26,139);
+}
+
+#about-spans {
+	font-size: 0.85rem;
 }
 
  /* Resume Button Hover */
