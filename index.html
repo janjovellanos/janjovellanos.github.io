@@ -24,16 +24,11 @@
       <nav id="nav">
         <a href="#" class="icon solid fa-home"><span>Home</span></a>
         <a href="#about" class="icon solid fa-user"><span>About</span></a>
+        <a href="#skills" class="icon solid fa-tools"><span>Skills</span></a>
         <a href="#work" class="icon solid fa-folder"><span>Projects</span></a>
-        <a href="#contact" class="icon solid fa-envelope"
-          ><span>Contact</span></a
-        >
-        <a href="https://github.com/janjovellanos" class="icon brands fa-github"
-          ><span>Github</span></a
-        >
-        <a href="https://www.linkedin.com/in/jan-michael-jovellanos-b30322242/" class="icon brands fa-linkedin"
-          ><span>LinkedIn</span></a
-        >
+        <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+        <!-- <a href="https://github.com/janjovellanos" class="icon brands fa-github"><span>Github</span></a>
+        <a href="https://www.linkedin.com/in/jan-michael-jovellanos-b30322242/" class="icon brands fa-linkedin"><span>LinkedIn</span></a> -->
       </nav>
 
       <!-- Main -->
@@ -41,7 +36,9 @@
         <!-- Me -->
         <article id="home" class="panel intro">
           <header>
-            <h2>Jan Michael Jovellanos <a href="https://docs.google.com/document/d/1fp7YxSNqnxiaCnykJ9PT3FLnam4Ll2Vmwc4ExWHO0ZM/" class="icon fa-file resume"></a></h2>
+            <h2>Jan Michael Jovellanos
+              <a href="https://docs.google.com/document/d/1fp7YxSNqnxiaCnykJ9PT3FLnam4Ll2Vmwc4ExWHO0ZM/" class="icon fa-file resume"><span>Resume</span></a>
+            </h2>
             <p>
               Defining the bridge between <strong>create</strong> and
               <strong>problem-solve</strong> within
@@ -59,14 +56,33 @@
         <!-- About Me -->
         <article id="about" class="panel intro">
           <header>
-            <h3>The Developer</h3>
+            <div class="about-header">
+              <h3>
+                The Developer
+              </h3>
+              <a href="https://github.com/janjovellanos" class="resume icon brands fa-github"><span>Github</span></a>
+              <a href="https://www.linkedin.com/in/jan-michael-jovellanos-b30322242/" class="resume icon brands fa-linkedin"><span>LinkedIn</span></a>
+            </div>
             <p>
               <li class="about-li">Graduated from App Academy</li>
               <li class="about-li">1000+ hours of technical experience</li>
               <li class="about-li">400+ hours of pair-programming experience</li>
               <!-- <li class="about-li">Skilled in JavaScript, Python, Express, Flask, React/Redux, PostgreSQL</li> -->
               <li class="about-li">Lover of fashion, dance and music <a href="https://open.spotify.com/artist/59FhKtSUSMEppH84ADJS4c" class="icon brands fa-spotify"></a></li>
-              <div class="tech-title">Technologies</div>
+            </p>
+          </header>
+          <a href="#work" class="jumplink pic">
+            <span class="arrow icon solid fa-chevron-right"
+              ><span>See my work</span></span
+            >
+            <img src="images/side-profile.JPG" alt="" />
+          </a>
+        </article>
+
+        <article id="skills" class="panel">
+          <header>
+            <h2 class="tech-title">Technologies</h2>
+          </header>
               <div class="tech">
                 <img src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" />
                 <img src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" />
@@ -84,14 +100,6 @@
                 <img src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" />
                 <img src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png" />
               </div>
-            </p>
-          </header>
-          <a href="#work" class="jumplink pic">
-            <span class="arrow icon solid fa-chevron-right"
-              ><span>See my work</span></span
-            >
-            <img src="images/side-profile.JPG" alt="" />
-          </a>
         </article>
 
         <!-- Work -->
@@ -102,11 +110,11 @@
           <p>
             <!-- Constructed and deployed 3 Full-Stack applications: -->
             <ul>
-              <li><strong>Chaliced</strong> | An e-commerce application designed for high-fashion and streetwear enthusiasts.
+              <li class="project-description"><strong>Chaliced</strong> | An e-commerce application designed for high-fashion and streetwear enthusiasts built with Express and React / Redux.
               </li>
-              <li><strong>Instapix</strong> | A pixel-perfect tribute to Instagram, a platform for sharing moments through images.
+              <li class="project-description"><strong>Instapix</strong> | A pixel-perfect tribute to Instagram, a platform for sharing moments through images.
               </li>
-              <li><strong>Shair</strong> | A music-sharing platform influenced by SoundCloud, where users can Shair their sound.
+              <li class="project-description"><strong>Shair</strong> | A music-sharing platform influenced by SoundCloud, where users can Shair their sound.
               </li>
             </ul>
           </p>
