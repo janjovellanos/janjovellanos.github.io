@@ -2218,6 +2218,7 @@ input, select, textarea {
   }
 
   .img-wrap:hover .img-description {
+	cursor: pointer;
 	visibility: visible;
 	opacity: 1;
   }
